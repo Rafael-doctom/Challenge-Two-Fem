@@ -1,0 +1,91 @@
+:root {
+--Dark-cyan: hsl(185, 75%, 39%);
+--Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+--Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-gray: hsl(0, 0%, 59%);
+}
+body {
+    background-position: top 60vh left 500px;
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: var(--Dark-cyan);
+    background-image: url(./images/bg-pattern-top.svg) ;
+}
+.container {
+    width: 360px;
+    margin: 150px auto;
+    background-color: white ;
+    border-radius: 20px;
+    
+}
+.container .bg-card img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.container .person {
+    position: relative;
+    margin-bottom: 50px;
+}
+.container .person img {
+    width: 100px;
+    border-radius: 50%;
+    border: 6px solid white;
+    position: absolute;
+    top: -40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+
+}
+
+.container .person .text {
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+.container .person h3 {
+    color: var(--Very-dark-desaturated-blue);
+}
+.container .person h3 span {
+color: var(--Dark-grayish-blue);
+font-weight: normal;
+margin-left: 10px;
+}
+.container .person .city {
+    color: var(--Dark-grayish-blue);
+    
+   
+}
+hr{
+border: none;
+height: 0.1px;
+    background-color: var(--Dark-gray);
+    margin-top: 20px;
+}
+.container .social-media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 20px;
+   text-align: center;
+}
+.container .social-media .nb {
+    font-size: 20px;
+
+    font-weight: 700;
+}
+.container .social-media .pr {
+    font-size: 14px;
+    color: var(--Dark-gray);
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+.attribution a { color: hsl(228, 45%, 44%); 
+}
